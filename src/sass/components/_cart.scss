@@ -1,0 +1,32 @@
+@import '../main/vars';
+
+.cart-counter {
+  position: absolute;
+  bottom: 0;
+  right: -17px;
+  width: 18px;
+  height: 16px;
+
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+
+  display: inline-block;
+  background: $c-main;
+  color: #1a1a1a;
+  border-radius: 100%;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s opacity ease-in-out;
+
+  &.show {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.cart-icon {
+  position: relative;
+}

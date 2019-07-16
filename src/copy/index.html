@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Sushi-Roll Market</title>
+	<link rel="stylesheet" type="text/css" href="/libs/bootstrap-grid.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+
+	<header class="full">
+		<div class="header">
+			<div class="header-bg">
+				<div class="header-bg__wrapper">
+					<div class="header-bg__content"></div>
+				</div>
+			</div>
+
+			<div class="header-full">
+				<div class="container-wide z-1">
+					<div class="row no-gutters">
+
+						<div class="ml-auto">
+							<nav class="header-nav">
+
+								<a href="/shops.html" class="no-style header-nav-item line mx-1">
+									<i class="sprite sprite-store"></i>
+									<span class="line__text">магазины</span>
+								</a>
+								<button style="position: relative; padding-right: 5px;"
+									class="js-order no-style header-nav-item line mx-1 cart-icon">
+									<i class="sprite sprite-bag"></i>
+									<span class="line__text">корзина</span>
+									<span class="cart-counter js-cart-count">0</span>
+								</button>
+
+								<button class="ml-2 no-style burger js-menu-open"></button>
+
+							</nav>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="header-decreased">
+				<div class="container-wide">
+					<div class="row no-gutters">
+
+						<div class="logo link-expanded"><a class="no-style" href="/"></a></div>
+
+						<div class="ml-auto">
+							<div class="header-icons">
+								<a href="/shops.html" class="no-style mx-1 sprite sprite-store"></a>
+								<button class="js-order no-style mx-1 sprite sprite-bag cart-icon">
+									<span class="cart-counter js-cart-count">0</span>
+								</button>
+							</div>
+
+							<button class="no-style burger js-menu-open"></button>
+						</div>
+
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</header>
+
+	<main class="image-bg">
+		<div class="container-wide">
+
+			<div class="row">
+				<div class="col-8 col-lg-9 catalog">
+					<div class="row">
+						<div class="pt-3 catalog-categories col-2">
+							<!-- categories -->
+							<div class="mb-1">
+								<button data-section="rolls"
+									class="no-style category-item active js-spy-control js-scrollTo">Роллы</button>
+							</div>
+							<div class="mb-1">
+								<button data-section="sets" class="no-style category-item js-spy-control js-scrollTo">Сеты</button>
+							</div>
+							<div class="mb-1">
+								<button data-section="hotrolls" class="no-style category-item js-spy-control js-scrollTo">Горячие
+									роллы</button>
+							</div>
+							<div class="mb-1">
+								<button data-section="salads" class="no-style category-item js-spy-control js-scrollTo">Салаты</button>
+							</div>
+
+						</div>
+
+						<!-- catalog -->
+						<div class="col-10 offset-2">
+
+							<!-- ROLLS -->
+							<section id="rolls" class="js-spy-section mt-5">
+								<div class="product-category-title">
+									<h2>Роллы</h2>
+								</div>
+								<div class="dev-product-entry row justify-content-center">
+
+									<div class="dev-product-inner col-4 col-lg-3 mb-2">
+										<div data-id="1" data-name="Ролл Филадельфия люкс" data-count="6" data-price="34"
+											class="product js-product pb-2">
+
+											<div class="product__photo mb-2">
+												<img src="https://www.sushiart.ae/product-6633-200x200/yellowtail-and-smoked-herring.png"
+													alt="product name">
+											</div>
+
+											<div class="product__title"><span>Ролл Филадельфия люкс</span></div>
+
+											<div class="product__consist"><span>рис нори, огурец, икра лососевая, сыр сливочный, лосось
+													Филе</span></div>
+
+											<div class="product__info mt-2">
+												<div class="product__meta">
+													<span class="price">₽ 34</span>
+													<span class="sep"></span>
+													<span class="count">1шт</span>
+												</div>
+
+												<div class="product__control">
+													<button class="js-product-add"><span>добавить</span>
+														<i class="icon-plus">+</i>
+													</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+								</div>
+							</section>
+
+							<!-- SETS -->
+							<section id="sets" class="js-spy-section mt-5">
+								<div class="product-category-title">
+									<h2>Сеты</h2>
+								</div>
+								<div class="dev-product-entry row justify-content-center">
+
+									<div class="dev-product-inner col-4 col-lg-3 mb-2">
+										<div data-id="1" data-name="Сет Филадельфия люкс" data-count="6" data-price="3400"
+											class="product js-product pb-2">
+
+											<div class="product__photo mb-2">
+												<img src="https://www.sushiart.ae/product-6901-200x200/trees-box.png" alt="product name">
+											</div>
+
+											<div class="product__title"><span>Сет Филадельфия люкс</span></div>
+
+											<div class="product__consist"><span>рис нори, огурец, икра лососевая, сыр сливочный, лосось
+													Филе</span></div>
+
+											<div class="product__info mt-2">
+												<div class="product__meta">
+													<span class="price">₽ 3400</span>
+													<span class="sep"></span>
+													<span class="count">16шт</span>
+												</div>
+
+												<div class="product__control">
+													<button class="js-product-add"><span>добавить</span>
+														<i class="icon-plus">+</i>
+													</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+								</div>
+							</section>
+							
+							<!-- HOTROLLS -->
+							<section id="hotrolls" class="js-spy-section mt-5">
+								<div class="product-category-title">
+									<h2>Горячие роллы</h2>
+								</div>
+								<div class="dev-product-entry row justify-content-center">
+
+									<div class="dev-product-inner col-4 col-lg-3 mb-2">
+										<div data-id="1" data-name="Хотролл Филадельфия люкс" data-count="6" data-price="34"
+											class="product js-product pb-2">
+
+											<div class="product__photo mb-2">
+												<img src="https://www.sushiart.ae/product-6901-200x200/trees-box.png" alt="product name">
+											</div>
+
+											<div class="product__title"><span>Хотролл Филадельфия люкс</span></div>
+
+											<div class="product__consist"><span>рис нори, огурец, икра лососевая, сыр сливочный, лосось
+													Филе</span></div>
+
+											<div class="product__info mt-2">
+												<div class="product__meta">
+													<span class="price">₽ 3400</span>
+													<span class="sep"></span>
+													<span class="count">16шт</span>
+												</div>
+
+												<div class="product__control">
+													<button class="js-product-add"><span>добавить</span>
+														<i class="icon-plus">+</i>
+													</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+								</div>
+							</section>
+							
+							<!-- SALADS -->
+							<section id="salads" class="js-spy-section mt-5">
+								<div class="product-category-title">
+									<h2>Салаты</h2>
+								</div>
+								<div class="dev-product-entry row justify-content-center">
+
+									<div class="dev-product-inner col-4 col-lg-3 mb-2">
+										<div data-id="1" data-name="Салат Филадельфия люкс" data-count="6" data-price="34"
+											class="product js-product pb-2">
+
+											<div class="product__photo mb-2">
+												<img src="https://www.sushiart.ae/product-6901-200x200/trees-box.png" alt="product name">
+											</div>
+
+											<div class="product__title"><span>Салат Филадельфия люкс</span></div>
+
+											<div class="product__consist"><span>рис нори, огурец, икра лососевая, сыр сливочный, лосось
+													Филе</span></div>
+
+											<div class="product__info mt-2">
+												<div class="product__meta">
+													<span class="price">₽ 3400</span>
+													<span class="sep"></span>
+													<span class="count">16шт</span>
+												</div>
+
+												<div class="product__control">
+													<button class="js-product-add"><span>добавить</span>
+														<i class="icon-plus">+</i>
+													</button>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+								</div>
+							</section>
+
+
+						</div>
+
+					</div>
+				</div>
+
+				<div id="basket" class="col-lg-3 col-4 basket">
+					<div class="basket__title">
+						<span class="h3">Корзина</span>
+						<span class="count"><span class="js-total-count">42</span>шт</span>
+					</div>
+
+					<div class="basket__empty mt-3">
+						<img src="/images/product-default.png" alt="empty basket">
+						<div class="text">Ваша корзина пуста</div>
+					</div>
+
+					<div class="basket__list">
+						<ul id="js-cart-entry" class="cart-list">
+
+						</ul>
+					</div>
+
+					<div class="total mt-4">
+						Всего <span class="total__price"><span class="js-total-price">0</span> ₽</span>
+
+						<button class="total__order js-order">Заказать
+
+						</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</main>
+
+	<div id="nav-menu" class="modal-side js-menu-close">
+
+		<div class="modal-side__inner js-modal-inner">
+			<button class="no-style js-menu-close modal-side__close">X</button>
+
+			<div class="mb-2">
+				<a class="h3 line no-style" href="/"><span class="line__text">Меню</span></a>
+			</div>
+			<div>
+				<a class="h3 line no-style" href="/shops.html"><span class="line__text">Наши магазины</span></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="cart-order" data-target="cart-order" class="modal js-modal-close">
+		<div class="modal__inner js-modal-inner">
+
+			<button data-target="cart-order" class="modal__close js-modal-close">X</button>
+
+			<div class="modal__header">
+				<div class="row">
+					<div class="col-2">
+						<i></i>
+					</div>
+					<div class="col">
+						<h2 class="modal__title">Заказ</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-8 mx-auto pt-3">
+				<form id="cart-order-form" action="" method="POST">
+
+					<div class="form-group">
+						<label for="name-field">Ваше имя
+						</label>
+						<input id="name-field" type="text" name="name" placeholder="Имя" />
+					</div>
+
+					<div class="form-group">
+						<label for="tel-field">Номер телефона
+						</label>
+						<input id="tel-field" type="tel" name="tel" placeholder="+7" />
+					</div>
+
+					<div class="form-group">
+						<label for="email-field">Ваш почтовый адрес
+						</label>
+						<input id="email-field" type="text" name="email" placeholder="Email" />
+					</div>
+
+					<div class="form-group">
+						<label for="shop-field">Выберите адрес магазина
+						</label>
+
+						<select name="shop" id="shop-field">
+							<option selected value="">Выберите магазин</option>
+							<option value="1">Магазин 1</option>
+							<option value="2">Магазин 2</option>
+							<option value="3">Магазин 3</option>
+						</select>
+					</div>
+
+					<div class="mt-2">
+						<p>Сумма заказа: <span class="js-total-price">0</span> ₽</p>
+					</div>
+
+					<span class="form-hint">
+						Нажимая кнопку <b>заказать</b>, вы даете свое согласие на обработку персональных данных, указанных в форме выше
+					</span>
+
+					<button class="mt-3 button_expanded">Заказать</button>
+
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+	<div id="order-success" class="modal">
+		<div class="modal__inner">
+
+			<button data-target="order-success" class="modal__close js-modal-close">X</button>
+
+			<div class="modal__header">
+				<div class="row">
+					<div class="col-2">
+						<i></i>
+					</div>
+					<div class="col">
+						<h2 class="modal__title">Заказ оставлен</h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-8 mx-auto pt-3">
+				<p>Ваш заказ поступил в обработку! В ближайшее время с Вами свяжется менеджер для уточнения деталей</p>
+
+				<button data-target="order-success" class="button_expanded js-modal-close">Хорошо</button>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script src="/js/main.js"></script>
+
+</body>
+
+</html>

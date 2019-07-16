@@ -1,0 +1,28 @@
+.sprite {
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px; height: 28px;
+  background-size: auto 100%;
+  background-position: 0;
+}
+
+.sprite-store {
+  background-image: url(/images/sprite-shop.png);
+}
+
+.sprite-bag {
+  background-image: url(/images/sprite-bag.png);
+}
+
+.sprite-bag,
+.sprite-store {
+  &:hover {
+    animation: playStore .8s steps(23);
+  }
+}
+
+@keyframes playStore {
+  to {
+      background-position: -644px
+  }
+}

@@ -1,0 +1,55 @@
+@import './vars';
+/* BUTTONS */
+
+button {
+  font-size: inherit;
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	user-select: none;
+	outline: none;
+	color: inherit;
+	font-family: inherit;
+}
+
+button:not(.link):not(.no-style), .button,
+input[type=reset], input[type=button], input[type=submit] {
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	
+	height: 32px;
+
+	text-align: center;
+	color: white;
+
+	cursor: pointer;
+	user-select: none;
+  
+	padding: 5px 15px;
+
+	font-size: $fz-small;
+	border-radius: 2px;
+
+  transition: all $tr-standart;
+  background-color: $c-main;
+  &:hover,
+  &:focus {
+    background-color: $c-main-dark;
+	}
+
+	&:disabled {
+		cursor: not-allowed;
+		color: $c-disabled;
+		border: 1px solid $c-disabled;
+		background: white;
+		pointer-events: none;
+	}
+}
+
+.button_expanded {
+	width: 100%;
+	text-align: center;
+}

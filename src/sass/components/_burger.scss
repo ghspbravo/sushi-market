@@ -1,0 +1,11 @@
+.burger {
+  display: inline-block;
+  vertical-align: middle;
+
+  width: 20px;
+  height: 10px;
+
+  background-image: url(/svg/burger.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

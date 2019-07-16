@@ -1,0 +1,8 @@
+$logo-size: 40px;
+
+.logo {
+  display: block;
+  width: $logo-size; height: $logo-size;
+  background-image: url(/svg/logo.svg);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,9 @@
+@import './vars';
+section {
+  position: relative;
+  
+  &.dark {
+    background: linear-gradient(115deg, rgba(0, 160, 227, 0.13) 5.32%, rgba(20, 115, 188, 0.13) 17.89%, rgba(0, 160, 227, 0.13) 39.2%, rgba(40, 70, 149, 0.13) 94.38%), #23262B;
+    color: white;
+  }
+}

@@ -1,0 +1,82 @@
+@import './vars';
+$field-height: 50px;
+
+fieldset {
+  padding: 1.5em 2.5em 3em;
+}
+
+legend {
+  padding: 0 15px;
+}
+
+label {
+  cursor: pointer;
+}
+
+.input,
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=url],
+input[type=password],
+input[type=search],
+input[type=number],
+select,
+textarea {
+
+  padding-left: 15px;
+  border-radius: 5px;
+
+  height: $field-height;
+  border: none;
+  color: rgba(35, 38, 43, 0.4);
+  background-color: white;
+
+  border: 1px solid black;
+
+  width: 100%;
+  font-size: $fz-main;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: auto;
+
+  &:hover,
+  &:focus,
+  &:hover::placeholder {
+    outline: none;
+    color: black;
+  }
+}
+
+form > .form-group + .form-group {
+  margin-top: 10px;
+}
+
+.form-error {
+  font-size: $fz-xsmall;
+  color: $c-error;
+}
+
+.form-hint {
+  font-size: $fz-xsmall;
+  color: $c-info;
+  line-height: 1;
+}
+
+textarea {
+  padding-top: 10px;
+	resize: none;
+}
+
+select {
+  // background-color: #fff;
+  // border: 1px solid black;
+
+  // width: 100%;
+  // height: $field-height;
+
+  // font-size: $fz-main;
+  // border-radius: 5px;
+
+  outline: none;
+}
